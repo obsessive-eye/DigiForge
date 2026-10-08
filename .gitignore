@@ -1,0 +1,31 @@
+# Root .gitignore
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+# Python
+.venv/
+backend/.venv/
+__pycache__/
+*.pyc
+*.sqlite3
+# Environment files
+.env
+.env.*
+!.env.example
+# IDE
+.vscode/
+.idea/
+# Logs
+*.log
+# Coverage
+coverage/
+# Temporary/generated files
+*.tmp
+# Runtime storage
+backend/storage/
+tmp_storage/
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
